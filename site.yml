@@ -1,0 +1,5 @@
+---  
+- name: Stop RabbitMQ Node
+  hosts: allnix
+  roles: 
+    - ansible-role-rabbitmq-stop-node
